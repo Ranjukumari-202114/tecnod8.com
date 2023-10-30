@@ -144,6 +144,7 @@
 .content_down2{
     font-size: 30px; 
     font-family: 'Jost', sans-serif;
+    color: beige;
    
 }
 .content_down input{
@@ -279,13 +280,44 @@
     .cart_image img{
         margin: 20px 0;
     }
+
     .footer{
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
+
+    .content_down3{
+        /* height: 30%; */
+        padding: 20px 0px;
+        border: none;
+        width: 50%;
+        box-shadow: 0 4px 4px rgba(178,131,255,.8);
+        border-radius: 10px;
+        font-size: 20px;
+        background: linear-gradient(0deg,#6b3d88,hsla(0,0%,100%,0));
+        
+    }
+    .content_down input{
+
+        padding: 20px;
+        height: 20%;
+        /* border: none; */
+        width: 65%;
+        border-radius: 50px;
+        border: 2px solid white;
+        font-size: 25px;
+        font-family: Times New Roman,Times,serif;
+    }
+    .content_down2{
+        font-size: 20px;
+        
+        font-family: 'Jost', sans-serif;
+        
+        width: 60%;
+        text-align: center;
+       
+    }
+   
   }
-  @media only screen and (max-width: 650px){
-    
-    
-  }
+  
